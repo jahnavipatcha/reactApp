@@ -1,3 +1,75 @@
-h1{
-    color: dodgerblue;
+html, body{
+    background-image: linear-gradient(#87ebca  ,#faaca8);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.main-header{
+    padding-bottom: 30px;
+    margin: 0;
+    border: 0;
+    text-align: center;
+    font-size: large;
+}
+
+.top-navbar li{
+    display: inline;
+}
+.top-navbar ul{
+    margin: 0;
+}
+.top-navbar a{
+    display: inline-block;
+    padding: 1.5em;
+    color: rgb(6, 13, 104, .6);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-navbar {
+    border-bottom: 1px solid rgba(233, 238, 240, 0.5)
+}
+
+.top-navbar a:hover{
+    background-color: rgba(88, 98, 245, 0.3);
+}
+
+.heading-text {
+    padding: 40px;
+    font-size: 2em;
+    color: rgb(6, 13, 104);
+}
+
+.about-section {
+     text-align: center;
+     
+}
+
+.about-section h2 {
+    font-size: 50px;
+    
+}
+.about-section p{
+    padding: 50px 100px;
+    font-size: 1.5em;
+    
+}
+
+.profilepic {
+    text-align: left;
+    padding: 20px 7%;
+}
+
+.profilepic img{
+    border-radius: 50%;
+    float: left;
+}
+.profilepic p{
+    display: inline;
+      
+}
+
+
+
